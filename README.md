@@ -5,7 +5,8 @@ This repository contains the code for state estimation for a unicycle system. Th
 The system considered in this problem is a unicycle system with the following equations
 $$\begin{aligned}
 \dot{x} & = v\cos(\theta) + C_xd \\
-\dot{y} & = v\sin(\theta) + C_yd\\
-\dot{\theta} & = \omega,\end{aligned}$$
+\dot{y} & = v\sin(\theta) + C_yd \\
+\dot{\theta} & = \omega,
+\end{aligned}$$
 
 <img src="/images/1.png" width="70%" height="70%">
