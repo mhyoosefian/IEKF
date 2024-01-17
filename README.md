@@ -3,8 +3,6 @@ This repository contains the code for state estimation for a unicycle system. Th
 
 # System equations
 The system considered in this problem is a unicycle system with the following equations
-$$
-\dot{x}
-$$
+$$\dot{x}+a$$
 
 <img src="/images/1.png" width="70%" height="70%">
