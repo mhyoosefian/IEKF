@@ -11,6 +11,23 @@ $$\dot{d} = Ad.$$
 For more information see section 3 in [1].
 
 ## Undisturbed system
-In the first example, there is no disturbance acting on the system, i.e., $d=0$. Try running `runMe.m` in the `Undisturbed` folder to get the following results.
+In the first example, there is no disturbance acting on the system, i.e., $d=0$. Try running `runMe.m` in the `undisturbed` folder to get the following results.
 
-<img src="/images/1.png" width="70%" height="70%">
+<img src="/images/x.png" width="50%" height="50%">
+<img src="/images/y.png" width="50%" height="50%">
+<img src="/images/theta.png" width="50%" height="50%">
+
+As it could be seen from these plots, the IEKF outperforms the EKF and UKF in terms of RMSE of estimation. 
+
+## Disturbed system
+In the second example, a disturbance $d \in \mathbb{R}^4$ acts on the system. There are two different IEKF designs provided in [1]. Run `runMe.m` in the `disturbed` folder to get the results. Some results are shown here.
+
+<img src="/images/theta.png" width="50%" height="50%">
+<img src="/images/d2.png" width="50%" height="50%">
+<img src="/images/d4.png" width="50%" height="50%">
+
+# To do
+The result from the second example does not exactly match the result from the paper.
+
+# References
+1- Coleman, K., Bai, H. and Taylor, C.N., 2021. Extended invariant-EKF designs for state and additive disturbance estimation. Automatica, 125, p.109464.
