@@ -13,7 +13,9 @@ The system considered in this problem is a unicycle system with the following eq
 \dot{\theta} = \omega,
 ```
 where $(x,y)$ are the position of the robot, $\theta$ is the heading, $v$ is the linear velocity, and $\omega$ is the turning rate. $d$ is the disturbance acting on the system through the matrices $C_x$ and $C_y$. The disturbance dynamics is given by
-$$\dot{d} = Ad.$$
+```math
+\dot{d} = Ad.
+```
 For more information see section 3 in [1].
 
 ## Undisturbed system
